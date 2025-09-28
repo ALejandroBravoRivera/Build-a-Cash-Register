@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 200px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50;
+  color: white;
+}
+
+#change-due {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
